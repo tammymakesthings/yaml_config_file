@@ -1,5 +1,6 @@
 require 'rubygems'
 require 'rake'
+require 'rake/rdoctask'
 
 begin
   require 'jeweler'
@@ -18,3 +19,11 @@ rescue LoadError
   puts "Jeweler (or a dependency) not available. Install it with: gem install jeweler"
 end
 
+Rake::RDocTask.new do |rdoc|
+  version = File.exist?('VERSION') ? File.read('VERSION') : ""
+
+  rdoc.rdoc_dir = 'rdoc'
+  rdoc.title = "yaml_config_file #{version}"
+  rdoc.rdoc_files.include('README.rdoc')
+  rdoc.rdoc_files.include('lib/**/*.rb')
+end
