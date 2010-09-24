@@ -1,0 +1,10 @@
+Description:
+    Generates a YAML configuration file, and an initializer to acccess it.
+
+Example:
+    rails generate config_file file_name
+
+    This will create:
+        - A YAML configuration file in config/
+        - An initializer to access the configuration file
+

@@ -1,0 +1,15 @@
+# This is the application configuration file. Add your settings here.
+# Settings in each of the environment-specific sections will override
+# equivalently-named settings in the global section.
+
+global:
+  dummy_setting: 0
+
+development:
+  dummy_setting: 1
+
+test:
+  dummy_setting: 2
+
+production:
+  dummy_setting: 3
