@@ -1,0 +1,15 @@
+= yaml_config_file
+
+Generate a YAML configuration file for a Rails 3 application, and an
+initializer that loads the configuration file.
+
+For example:
+
+  rails generate yaml_config_file app_config
+
+This will generate a YAML configuration file in config/app_config.yml, and
+an initializer in config/initializers/app_config.rb to load it.
+
+== Copyright
+
+Copyright (c) 2010 Tammy Cravit. See LICENSE for details.
