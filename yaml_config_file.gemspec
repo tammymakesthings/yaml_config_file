@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{yaml_config_file}
-  s.version = "0.0.2"
+  s.version = "0.1.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Tammy Cravit"]
@@ -28,7 +28,8 @@ Gem::Specification.new do |s|
      "VERSION",
      "lib/generators/yaml_config_file/templates/config_file.rb",
      "lib/generators/yaml_config_file/templates/config_file.yml",
-     "lib/generators/yaml_config_file/yaml_config_file_generator.rb"
+     "lib/generators/yaml_config_file/yaml_config_file_generator.rb",
+     "yaml_config_file.gemspec"
   ]
   s.homepage = %q{http://github.com/tammycravit/yaml_config_file}
   s.rdoc_options = ["--charset=UTF-8"]
