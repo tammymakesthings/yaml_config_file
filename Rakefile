@@ -10,6 +10,7 @@ begin
     gem.email = "tcravit@taylored-software.com"
     gem.homepage = "http://github.com/tammycravit/yaml_config_file"
     gem.authors = ["Tammy Cravit"]
+    gem.add_dependency "rails", ">= 3.0.0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
