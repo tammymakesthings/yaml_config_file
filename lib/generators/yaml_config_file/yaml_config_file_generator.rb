@@ -18,6 +18,7 @@
 #
 # The YAML file is also evaluated through ERB, like Rails' database.yml,
 # so you can use ERB blocks in your configuration file. 
+
 class YamlConfigFileGenerator < Rails::Generators::NamedBase
   
   source_root File.expand_path('../templates', __FILE__)
