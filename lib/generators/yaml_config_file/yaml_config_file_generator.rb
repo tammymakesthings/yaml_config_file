@@ -6,12 +6,12 @@ class YamlConfigFileGenerator < Rails::Generators::NamedBase
   class_option :skip_initializer, :type => :boolean, :default => false, :description => "Skip generation of the initializer"  
   
   def yaml_config_file
-    template "config_file.yml", "config/#{file_name}.yml" unless options.skip_yaml_file?
-    template "config_file.rb", "config/initializers/#{file_name}.rb" unless options.skip_initializer?
+    template "config_file.yml", "config/#{gen_file_name}.yml" unless options.skip_yaml_file?
+    template "config_file.rb", "config/initializers/#{gen_file_name}.rb" unless options.skip_initializer?
   end
   
   private
-  def file_name
+  def gen_file_name
     file_name.underscore
   end
 end
