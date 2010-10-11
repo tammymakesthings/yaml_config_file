@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{yaml_config_file}
-  s.version = "0.2.2"
+  s.version = "0.2.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Tammy Cravit"]
-  s.date = %q{2010-09-24}
+  s.date = %q{2010-10-11}
   s.description = %q{YAML Configuration File generator for Rails 3}
   s.email = %q{tcravit@taylored-software.com}
   s.extra_rdoc_files = [
