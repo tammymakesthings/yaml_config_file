@@ -1,5 +1,8 @@
+require 'rspec'
 require "bundler/setup"
+require 'ammeter/init'
 require "yaml_config_file"
+
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
